@@ -256,6 +256,7 @@ header
 }
 
 .header-area .main-nav .logo {
+    
   line-height: 120px;
   color: #fff;
   font-size: 28px;
@@ -267,6 +268,9 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+.logoimg{
+    width: 70%;
 }
 
 .background-header .main-nav .logo {
