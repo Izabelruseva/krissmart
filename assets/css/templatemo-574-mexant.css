@@ -1217,10 +1217,10 @@ page heading
 */
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/bankqnost.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding: 215px 0px 120px 0px;
   text-align: center;
 }
@@ -1569,6 +1569,10 @@ section.map .info-item a {
 
 section.map .info-item a:hover {
   color: #ff511a;
+}
+.bankq{
+    overflow: hidden;
+    
 }
 
 #contact input {
