@@ -1217,7 +1217,8 @@ page heading
 */
 
 .page-heading {
-  background-image: url(../images/bankqnost.png);
+  /* background-image: url(../images/bankqnost.png); */
+  background-color: #ffa88c;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
