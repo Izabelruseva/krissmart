@@ -1215,7 +1215,10 @@ footer p a {
 page heading
 --------------------------------------------- 
 */
-
+.p.uslovia{
+    color: #fff;
+    font-size: 56px;
+}
 .page-heading {
   /* background-image: url(../images/bankqnost.png); */
   background-color: #ffa88c;
