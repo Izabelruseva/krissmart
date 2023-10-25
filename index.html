@@ -459,6 +459,11 @@ SMART ключове, звънци, лампи, Google nest устройства
       .then(function(response) {
         console.log("Email sent successfully", response);
         console.log(`${name} ${email} ${subject} ${category} `);
+        document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("subject").value = "";
+            document.getElementById("chooseOption").value = "";
+            alert(`Получихме вашето запитване, ще се свържем с вас в най-скоро време. Благодарим!`);
         // You can redirect the user to a thank you page here
       })
       .catch(function(error) {
