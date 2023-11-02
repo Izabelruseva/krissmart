@@ -355,7 +355,7 @@ SMART ключове, звънци, лампи, Google nest устройства
             <h6>Имате свобода да изразите себе си</h6>
             <h4>Създайте оферта</h4>
           </div>
-          <form id="calculate" action="javascript:void(0);" method="post">
+          <form  id="calculate" action="https://formsubmit.co/rusevaizabel@gmail.com.com" method="POST" >
             <div class="row">
               <div class="col-lg-6">
                 <fieldset>
@@ -366,7 +366,7 @@ SMART ключове, звънци, лампи, Google nest устройства
               <div class="col-lg-6">
                 <fieldset>
                   <label for="email">Вашият Email</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="" required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -452,42 +452,42 @@ SMART ключове, звънци, лампи, Google nest устройства
     emailjs.init("k5q71oWONONkUVzKX"); // Replace "your_user_id" with your actual Email.js user ID
   })();
 </script>
-    <script>
+    <!-- <script>
   document.getElementById("calculate").onsubmit = function(event) {
     event.preventDefault();
 
     // Get form data
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const subject = document.getElementById("subject").value;
-    const category = document.getElementById("chooseOption").value;
+//     const name = document.getElementById("name").value;
+//     const email = document.getElementById("email").value;
+//     const subject = document.getElementById("subject").value;
+//     const category = document.getElementById("chooseOption").value;
 
-    // Prepare the email template
-    const templateParams = {
-      name: name,
-      email: email,
-      subject: subject,
-      category: category,
-      format: "html"
-    };
+//     // Prepare the email template
+//     const templateParams = {
+//       name: name,
+//       email: email,
+//       subject: subject,
+//       category: category,
+//       format: "html"
+//     };
 
-    // Send the email using Email.js
-    emailjs.send("service_bvo7ovg", "template_5hy93el", templateParams)
-      .then(function(response) {
-        console.log("Email sent successfully", response);
-        console.log(`${name} ${email} ${subject} ${category} `);
-        document.getElementById("name").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("subject").value = "";
-            document.getElementById("chooseOption").value = "";
-            alert(`Получихме вашето запитване, ще се свържем с вас в най-скоро време. Благодарим!`);
-        // You can redirect the user to a thank you page here
-      })
-      .catch(function(error) {
-        console.error("Email could not be sent", error);
-      });
+//     // Send the email using Email.js
+//     emailjs.send("service_bvo7ovg", "template_5hy93el", templateParams)
+//       .then(function(response) {
+//         console.log("Email sent successfully", response);
+//         console.log(`${name} ${email} ${subject} ${category} `);
+//         document.getElementById("name").value = "";
+//             document.getElementById("email").value = "";
+//             document.getElementById("subject").value = "";
+//             document.getElementById("chooseOption").value = "";
+//             alert(`Получихме вашето запитване, ще се свържем с вас в най-скоро време. Благодарим!`);
+//         // You can redirect the user to a thank you page here
+//       })
+//       .catch(function(error) {
+//         console.error("Email could not be sent", error);
+//       });
   };
-</script>
+</script> -->
     
 
     <script>
