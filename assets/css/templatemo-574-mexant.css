@@ -256,6 +256,7 @@ header
 }
 
 .header-area .main-nav .logo {
+    
   line-height: 120px;
   color: #fff;
   font-size: 28px;
@@ -267,6 +268,9 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+.logoimg{
+    width: 30%;
 }
 
 .background-header .main-nav .logo {
@@ -1011,11 +1015,12 @@ calculator
 
 section.calculator {
   margin-top: 150px;
-  background-image: url(../images/calculator-bg.jpg);
+  background-image: url(../images/bankq.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 100%;
+  
   padding: 80px 0px;
 }
 
@@ -1211,12 +1216,16 @@ footer p a {
 page heading
 --------------------------------------------- 
 */
-
+.p.uslovia{
+    color: #fff;
+    font-size: 56px;
+}
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
+  /* background-image: url(../images/bankqnost.png); */
+  background-color: #ffa88c;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding: 215px 0px 120px 0px;
   text-align: center;
 }
@@ -1565,6 +1574,15 @@ section.map .info-item a {
 
 section.map .info-item a:hover {
   color: #ff511a;
+}
+.bankq{
+    overflow: hidden;
+    height: 50vh;
+    width: 100vh;
+    align-items: center;
+    margin-left: 25%;
+    
+    
 }
 
 #contact input {
